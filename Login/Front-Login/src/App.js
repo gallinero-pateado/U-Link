@@ -19,7 +19,7 @@ function App() {
           <Route path="/roomie" element={<MainPage />} />
 
           {/*Redirección de la ruta main (/main) hacia /practicas */}
-          <Route path="/practica" element={<Navigate to="/practica" replace />} />
+          <Route path="/practica" element={<Navigate to="/practica" replace />}    
           <Route path="/practica" element={<MainPage />} />
 
         </Routes>
